@@ -1,5 +1,6 @@
 Example:
-REPLACE youtube-dl WITH yt-dlp FOR NOW
+REPLACE youtube-dl WITH yt-dlp FOR NOW:
+yt-dlp -x --audio-format "mp3" --audio-quality 320k https://youtu.be/2YtDiFISpmA
 
 Download only audio of video:
 youtube-dl -x --audio-format "mp3" --audio-quality 320k https://youtu.be/2YtDiFISpmA -4
