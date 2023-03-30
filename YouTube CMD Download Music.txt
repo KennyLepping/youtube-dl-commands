@@ -9,7 +9,7 @@ List available formats:
 youtube-dl -F https://youtu.be/cLy_-iMXjGM
 
 Download best quality video with audio:
-youtube-dl -f bestvideo+bestaudio/best https://youtu.be/cLy_-iMXjGM
+youtube-dl -f bestvideo+bestaudio/best https://youtu.be/pzxEETy_4B8
 
 Download from certain time to another time:
 youtube-dl -f bestvideo+bestaudio/best --start 1:10 --end 1:40 https://youtu.be/cLy_-iMXjGM
@@ -22,3 +22,6 @@ start .
 
 If getting 403 Forbidden error with youtube-dl, run this command:
 youtube-dl --rm-cache-dir
+
+To convert video to mp4 with ffmpeg:
+ffmpeg -i "Slave I Seismic Charge - Original vs New (The Mandalorian) [pzxEETy_4B8].webm" -c:v libx264 -crf 0 -preset veryslow -c:a aac -b:a 192k -strict experimental "Slave I Seismic Charge - Original vs New (The Mandalorian) [pzxEETy_4B8].mp4"
