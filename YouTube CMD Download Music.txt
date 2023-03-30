@@ -11,6 +11,9 @@ youtube-dl -F https://youtu.be/cLy_-iMXjGM
 Download best quality video with audio:
 youtube-dl -f bestvideo+bestaudio/best https://youtu.be/cLy_-iMXjGM
 
+Download from certain time to another time:
+youtube-dl -f bestvideo+bestaudio/best --start 1:10 --end 1:40 https://youtu.be/cLy_-iMXjGM
+
 To open file explorer:
 explorer
 
