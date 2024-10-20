@@ -8,9 +8,6 @@ yt-dlp -x --audio-format "mp3" --audio-quality 320k https://youtu.be/Sld98VsT-jY
 Download only audio of video:
 youtube-dl -x --audio-format "mp3" --audio-quality 320k https://youtu.be/2YtDiFISpmA -4
 
-Download a playlist:
-youtube-dl --extract-audio --audio-format mp3 -o "%(title)s.%(ext)s" https://youtube.com/playlist?list=PL1OILsnU-CWlFTPd9pqlBgGtqSBw5aXIq&si=aH51UsDMwipQW9-S
-
 List available formats:
 youtube-dl -F https://youtu.be/cLy_-iMXjGM
 
